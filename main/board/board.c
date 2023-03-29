@@ -17,6 +17,8 @@ void board_init(void){
 	drv_timer_init();
 	HAL_UART_Init(&huart1);
 
+	gpio_init(&gpio_nodeid[1]);
+	gpio_pin_write(&gpio_nodeid[1], GPIO_PIN_SET);
 	int size = flash_read_str("auther", auther_str);
 	if(size == -1){
 		uint32_t auther = esp_random();
