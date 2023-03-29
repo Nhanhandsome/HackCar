@@ -4,19 +4,19 @@
 cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
-  "/Users/phamminhnhan/Documents/ESP-IDF/esp-idf-v5.0/components/bootloader/subproject"
-  "/Users/phamminhnhan/eclipse-workspace/CarTool/build/bootloader"
-  "/Users/phamminhnhan/eclipse-workspace/CarTool/build/bootloader-prefix"
-  "/Users/phamminhnhan/eclipse-workspace/CarTool/build/bootloader-prefix/tmp"
-  "/Users/phamminhnhan/eclipse-workspace/CarTool/build/bootloader-prefix/src/bootloader-stamp"
-  "/Users/phamminhnhan/eclipse-workspace/CarTool/build/bootloader-prefix/src"
-  "/Users/phamminhnhan/eclipse-workspace/CarTool/build/bootloader-prefix/src/bootloader-stamp"
+  "C:/Espressif/frameworks/esp-idf-v5.0/components/bootloader/subproject"
+  "C:/Users/MinhNhan/Desktop/MinhNhan/HackCar/build/bootloader"
+  "C:/Users/MinhNhan/Desktop/MinhNhan/HackCar/build/bootloader-prefix"
+  "C:/Users/MinhNhan/Desktop/MinhNhan/HackCar/build/bootloader-prefix/tmp"
+  "C:/Users/MinhNhan/Desktop/MinhNhan/HackCar/build/bootloader-prefix/src/bootloader-stamp"
+  "C:/Users/MinhNhan/Desktop/MinhNhan/HackCar/build/bootloader-prefix/src"
+  "C:/Users/MinhNhan/Desktop/MinhNhan/HackCar/build/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/Users/phamminhnhan/eclipse-workspace/CarTool/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "C:/Users/MinhNhan/Desktop/MinhNhan/HackCar/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/Users/phamminhnhan/eclipse-workspace/CarTool/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "C:/Users/MinhNhan/Desktop/MinhNhan/HackCar/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
 endif()

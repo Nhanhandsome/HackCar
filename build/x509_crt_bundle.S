@@ -1,4 +1,4 @@
-/* * Data converted from /Users/phamminhnhan/eclipse-workspace/CarTool/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from C:/Users/MinhNhan/Desktop/MinhNhan/HackCar/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 .section .rodata.embedded
