@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/phamminhnhan/eclipse-workspace/CarTool/build/CMakeFiles/bootloader"
+		},
+		{
+			"file" : "/Users/phamminhnhan/eclipse-workspace/CarTool/build/CMakeFiles/bootloader.rule"
+		},
+		{
+			"file" : "/Users/phamminhnhan/eclipse-workspace/CarTool/build/CMakeFiles/bootloader-complete.rule"
+		},
+		{
+			"file" : "/Users/phamminhnhan/eclipse-workspace/CarTool/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
+		},
+		{
+			"file" : "/Users/phamminhnhan/eclipse-workspace/CarTool/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
+		},
+		{
+			"file" : "/Users/phamminhnhan/eclipse-workspace/CarTool/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
+		},
+		{
+			"file" : "/Users/phamminhnhan/eclipse-workspace/CarTool/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
+		},
+		{
+			"file" : "/Users/phamminhnhan/eclipse-workspace/CarTool/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
+		},
+		{
+			"file" : "/Users/phamminhnhan/eclipse-workspace/CarTool/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
+		},
+		{
+			"file" : "/Users/phamminhnhan/eclipse-workspace/CarTool/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"bootloader"
+		],
+		"name" : "bootloader"
+	}
+}
