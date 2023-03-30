@@ -7,11 +7,14 @@ file(GLOB board_source "board/*.c"
 					   "board/can_hw/*.c"
 					   "board/gpio/*.c"
 					   "board/uart_hw/*.c"
-					   "board/ioe_hw/*.c")
+					   "board/ioe_hw/*.c"
+					   "board/mywifi/*.c")
 
 file(GLOB app_source   "app/*.c"
 					   "app/modbus/*.c"
-					   "app/led/*.c")
+					   "app/led/*.c"
+					   "app/wifi/*.c"
+					   "app/tcp_server/*.c")
 
 idf_component_register(
     SRCS ${board_source}  
@@ -25,9 +28,12 @@ idf_component_register(
     			   "board/can_hw"
     			   "board/gpio"
     			   "board/uart_hw" 
+    			   "board/mywifi"
     			   "app"
     			   "app/modbus" 
-    			   "app/led"    # optional, add here public include directories
+    			   "app/led" 
+    			   "app/wifi"
+    			   "app/tcp_server"   # optional, add here public include directories
     PRIV_INCLUDE_DIRS   # optional, add here private include directories
     REQUIRES            # optional, list the public requirements (component names)
     PRIV_REQUIRES       # optional, list the private requirements
